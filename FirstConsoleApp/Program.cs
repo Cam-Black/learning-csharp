@@ -1,20 +1,14 @@
 ﻿namespace FirstConsoleApp
 {
-    class FirstConsoleApp
+    internal static class Program
     {
         public static void Main(string[] args)
         {
-            int[] intArr = new int[5];
-            for (int i = 0; i < intArr.Length; i++)
-            {
-                intArr[i] = i + 1;
-            }
-            foreach (int i in intArr)
-            {
-                System.Console.WriteLine(i);
-            }
+            
+            FirstConsoleApp.IntArray myArr = new IntArray(5);
+            myArr.PopIntArr();
+            myArr.PrintIntArr();
 
-            char letter = 'd';
         }
     }
 }
