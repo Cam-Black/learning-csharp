@@ -1,6 +1,6 @@
 ﻿namespace Student
 {
-    class Runner
+    internal static class Runner
     {
         public static void Main(string[] args)
         {
