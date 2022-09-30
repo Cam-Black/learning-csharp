@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="638c0c94-a384-4116-a60b-f2bcf6fe6444" name="Changes" comment="Created main method for Student Solution">
+    <list default="true" id="638c0c94-a384-4116-a60b-f2bcf6fe6444" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learning CSharp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learning CSharp.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student/Student/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Student/Student/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/Student/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Student/Student/Student.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FirstConsoleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://A:/VSCode/Projects/Learning CSharp/Student/Student/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Student/Student/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -52,7 +55,7 @@
       <workItem from="1664531185745" duration="78000" />
       <workItem from="1664531290911" duration="91000" />
       <workItem from="1664531884399" duration="354000" />
-      <workItem from="1664532331972" duration="204000" />
+      <workItem from="1664532331972" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Moved git repo to root of Learning CSharp folder so can create different solutions inside one directory.">
       <created>1664531354521</created>
