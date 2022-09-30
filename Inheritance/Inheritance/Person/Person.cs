@@ -8,10 +8,15 @@ public class Person
     {
         FirstName = firstName;
         Surname = surname;
-        DoB = DateOnly.Parse(dob);
+        DoB = System.DateOnly.Parse(dob);
     }
 
     public string FirstName { get; set; } = "Jon";
     public string Surname { get; set; } = "Doe";
-    public DateOnly DoB { get; set; } = new DateOnly(2000, 01, 01);
+    public System.DateOnly DoB { get; set; } = System.DateOnly.Parse("1970-01-01");
+
+    public override string ToString()
+    {
+        return $"FirstName: {FirstName}, Surname: {Surname}, Date of Birth: {DoB}";
+    }
 }
