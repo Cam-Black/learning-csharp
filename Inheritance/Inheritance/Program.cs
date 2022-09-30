@@ -13,5 +13,6 @@ string? dob = System.Console.ReadLine();
 person.FirstName = firstName;
 person.Surname = lastName;
 person.DoB = System.DateOnly.Parse(dob);
+
 System.Console.WriteLine($"Hello, {person.FirstName} {person.Surname}! ");
 System.Console.WriteLine($"You were born {person.DoB}");
