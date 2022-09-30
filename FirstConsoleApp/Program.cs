@@ -4,11 +4,17 @@
     {
         public static void Main(string[] args)
         {
-            string name = args[0];
-            string location = args[1];
-            int age = int.Parse(args[2]);
-            System.Console.WriteLine("Hello " + name + " from " + location + ".");
-            System.Console.WriteLine("You are " + age + " years old");
+            int[] intArr = new int[5];
+            for (int i = 0; i < intArr.Length; i++)
+            {
+                intArr[i] = i + 1;
+            }
+            foreach (int i in intArr)
+            {
+                System.Console.WriteLine(i);
+            }
+
+            char letter = 'd';
         }
     }
 }
